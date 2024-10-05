@@ -173,7 +173,7 @@ export const seoData: SEODataType = {
   title: "Saurabh Mishra",
   description: greetings.description,
   author: "Saurabh Mishra",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  image: "https://avatars.githubusercontent.com/u/144934155?v=4",
   url: "https://portfolio-saurabh-mishra.vercel.app/",
   keywords: [
     "Saurabh",
