@@ -58,7 +58,7 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "vscode-icons:file-type-light-next",
         },
         {
-          skillName: "AWS",
+          skillName: "Azure",
           iconifyTag: "logos:azure",
         },
         {
@@ -71,11 +71,35 @@ export const skillsSection: SkillsSectionType = {
         },
         {
           skillName: "NET",
-          iconifyTag: "simple-icons:dotnet", 
+          iconifyTag: "simple-icons:dotnet",
         },
         {
           skillName: "Microsoft SQL Server",
           iconifyTag: "simple-icons:microsoftsqlserver",
+        },
+        {
+          skillName: "Redux Toolkit",
+          iconifyTag: "simple-icons:redux",
+        },
+        {
+          skillName: "RabbitMQ",
+          iconifyTag: "simple-icons:rabbitmq",
+        },
+        {
+          "skillName": "HttpOnly Cookies",
+          "iconifyTag": "mdi:lock"
+        },
+        {
+          "skillName": "REST API",
+          "iconifyTag": "simple-icons:api"
+        },
+        {
+          "skillName": "Serilog",
+          "iconifyTag": "mdi:cog"
+        },
+        {
+          "skillName": "Microservices",
+          "iconifyTag": "mdi:server"
         },
       ],
     },
@@ -139,30 +163,33 @@ export const experience: ExperienceType[] = [
     company: "NanhiDuniya",
     companyLogo: "/img/icons/common/NanhiDuniya.jpeg",
     date: "March 2024 - Present",
-    desc: "I am primarily focused on enhancing the user experience by developing a robust web application using .NET and React. My responsibilities include designing and implementing APIs to facilitate seamless data interaction, as well as managing SQL databases. ",
+    desc: "Focused on creating a seamless and engaging online learning platform, I am responsible for building a robust web application using .NET and React. Key tasks include designing APIs for efficient data interaction, managing SQL databases, and ensuring a scalable, containerized infrastructure using Docker and Kubernetes.",
   },
 ];
 
 export const projects: ProjectType[] = [
   {
     name: "developer-portfolio",
-    desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+    desc: "Developer Portfolio is a comprehensive software developer portfolio template built using React.js and Next.js. This template is designed to effectively showcase my work and skills, providing a visually appealing and user-friendly interface.By leveraging the powerful capabilities of React and Next.js.",
     github: "https://github.com/saurabhmishra1464",
     link: "#",
   },
   {
     name: "NanhiDuniya UserManagement Api",
-    desc: "The NanhiDuniya User Management API provides secure user authentication using JWT tokens stored in HTTP-only cookies to prevent XSS attacks. It employs RabbitMQ for asynchronous processing of background tasks, such as sending emails. Key features include user registration, profile management, password recovery, and role-based access control.",
+    desc: "The NanhiDuniya User Management API ensures secure user authentication by utilizing JWT tokens stored in HTTP-only cookies, safeguarding against XSS attacks. This API is designed to handle various user management functions, including user registration, profile management, password recovery, and role-based access control.The system leverages RabbitMQ for the asynchronous processing of background tasks such as sending emails, ensuring seamless and scalable communication between services. It’s built with robust security measures and offers efficient handling of critical user operations.",
+    github: "https://github.com/saurabhmishra1464/NanhiDuniya",
     link: "#",
   },
   {
     name: "NanhiDuniya Frontend",
     desc: "The NanhiDuniya frontend, built with React.js and Next.js, utilizes Redux Toolkit and Redux Query for state management, incorporates Tailwind CSS for styling, and employs Zod for validation, along with loading skeletons for enhanced user experience.",
+    github: "https://github.com/saurabhmishra1464/NanhiDuniya/tree/main/NanhiDuniya-Frontend/nanhiduniya-client",
     link: "#",
   },
   {
     name: "NanhiDuniya Email Api",
     desc: "The NanhiDuniya Email API enables efficient email communication, utilizing RabbitMQ for asynchronous processing, customizable templates, and tracking capabilities for user engagement.",
+    github: "https://github.com/saurabhmishra1464/NanhiDuniya/tree/main/NanhiDuniya.Services.EmailApi",
     link: "#",
   },
 ];
