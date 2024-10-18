@@ -178,13 +178,13 @@ export const projects: ProjectType[] = [
     name: "NanhiDuniya UserManagement Api",
     desc: "The NanhiDuniya User Management API ensures secure user authentication by utilizing JWT tokens stored in HTTP-only cookies, safeguarding against XSS attacks. This API is designed to handle various user management functions, including user registration, profile management, password recovery, and role-based access control.The system leverages RabbitMQ for the asynchronous processing of background tasks such as sending emails, ensuring seamless and scalable communication between services. It’s built with robust security measures and offers efficient handling of critical user operations.",
     github: "https://github.com/saurabhmishra1464/NanhiDuniya",
-    link: "#",
+    link: "https://nanhiduniyaauthapi.saurabhmishra.org/index.html",
   },
   {
     name: "NanhiDuniya Frontend",
     desc: "The NanhiDuniya frontend, built with React.js and Next.js, utilizes Redux Toolkit and Redux Query for state management, incorporates Tailwind CSS for styling, and employs Zod for validation, along with loading skeletons for enhanced user experience.",
     github: "https://github.com/saurabhmishra1464/NanhiDuniya/tree/main/NanhiDuniya-Frontend/nanhiduniya-client",
-    link: "#",
+    link: "https://nanhiduniyafrontend.saurabhmishra.org/admin/dashboard",
   },
   {
     name: "NanhiDuniya Email Api",
