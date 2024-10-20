@@ -184,7 +184,7 @@ export const projects: ProjectType[] = [
     name: "NanhiDuniya Frontend",
     desc: "The NanhiDuniya frontend, built with React.js and Next.js, utilizes Redux Toolkit and Redux Query for state management, incorporates Tailwind CSS for styling, and employs Zod for validation, along with loading skeletons for enhanced user experience.",
     github: "https://github.com/saurabhmishra1464/NanhiDuniya/tree/main/NanhiDuniya-Frontend/nanhiduniya-client",
-    link: "https://nanhiduniyafrontend.saurabhmishra.org/admin/dashboard",
+    link: "https://nanhiduniyafrontend.saurabhmishra.org",
   },
   {
     name: "NanhiDuniya Email Api",
