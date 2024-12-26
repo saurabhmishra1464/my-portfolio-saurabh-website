@@ -134,17 +134,10 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Software Intern",
-    company: "BruCode Technologies",
-    companyLogo: "/img/icons/common/Brucode.jpeg",
-    date: "April 2021 - March 2022",
-    desc: "As an intern, I gained hands-on experience in developing backend solutions using .NET and .NET Core for various web applications, including those in e-commerce and property management. I managed SQL databases, optimizing data operations through effective queries and stored procedures.",
-  },
-  {
     role: "Software Associate Level II",
     company: "SmartData EnterPrises",
     companyLogo: "/img/icons/common/smartdataenterprises.jpeg",
-    date: "March 2022 - March 2023",
+    date: "January 2022 - March 2023",
     desc: "As a Software Associate, I specialized in developing robust web applications using .NET and React, focusing on creating user-friendly interfaces and efficient back-end processes. I managed database interactions using SQL, optimizing queries for improved performance and data integrity. ",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
@@ -152,10 +145,10 @@ export const experience: ExperienceType[] = [
     // ],
   },
   {
-    role: "Full Stack Developer",
+    role: "Software Engineer Consultant",
     company: "Ariel Software Solutions",
     companyLogo: "/img/icons/common/Ariel.png",
-    date: "Oct 2023 - March 2024",
+    date: "October 2023 - March 2024",
     desc: "I contributed to the development of high-performance applications by leveraging my skills in .NET and SQL. My work in integrating React with back-end services resulted in improved user experiences.",
   },
   {
