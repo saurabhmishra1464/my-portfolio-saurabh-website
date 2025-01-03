@@ -138,7 +138,7 @@ export const experience: ExperienceType[] = [
     company: "SmartData EnterPrises",
     companyLogo: "/img/icons/common/smartdataenterprises.jpeg",
     date: "January 2022 - March 2023",
-    desc: "As a Software Associate, I specialized in developing robust web applications using .NET and React, focusing on creating user-friendly interfaces and efficient back-end processes. I managed database interactions using SQL, optimizing queries for improved performance and data integrity. ",
+    desc: "As a Software Associate Level II, I led the development of an Azure Bot for recording Microsoft Teams meetings, leveraging Azure Cognitive Services, Microsoft Graph API, and Bot Framework SDK to enhance collaboration efficiency. I deployed scalable services on Azure Kubernetes Service (AKS), ensuring high availability and streamlined load balancing. Additionally, I spearheaded the migration of legacy systems to a modern microservices architecture, reducing infrastructure costs and improving maintainability. My role required close collaboration with cross-functional teams, including QA and UI/UX, to deliver user-centered software solutions that exceeded client expectations. ",
     // descBullets: [
     // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
     // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -149,14 +149,22 @@ export const experience: ExperienceType[] = [
     company: "Ariel Software Solutions",
     companyLogo: "/img/icons/common/Ariel.png",
     date: "October 2023 - March 2024",
-    desc: "I contributed to the development of high-performance applications by leveraging my skills in .NET and SQL. My work in integrating React with back-end services resulted in improved user experiences.",
+    desc: "As a Software Engineer Consultant, I developed and optimized interactive web applications using React, Tailwind CSS, and .NET Core, ensuring responsive designs and enhanced user engagement. I streamlined API performance by refining SQL queries and implementing advanced caching techniques, which significantly reduced response times and improved scalability. Additionally, I architected reusable React components to boost development efficiency and maintain consistent UI/UX across projects. My role also involved integrating third-party APIs for dynamic data visualization and establishing secure user authentication protocols using JWT tokens to enhance data security.",
   },
   {
-    role: "Full Stack Developer",
+    role: "Full-Stack Developer (Entrepreneurial Project)",
     company: "NanhiDuniya",
     companyLogo: "/img/icons/common/NanhiDuniya.jpeg",
     date: "March 2024 - Present",
-    desc: "Focused on creating a seamless and engaging online learning platform, I am responsible for building a robust web application using .NET and React. Key tasks include designing APIs for efficient data interaction, managing SQL databases, and ensuring a scalable, containerized infrastructure using Docker and Kubernetes.",
+    desc: "I architected and developed a scalable school management system with advanced features for attendance tracking, user role management, and modular design. The platform was built using ReactJS and .NET Core, leveraging a microservices architecture for scalability and maintainability. I implemented JWT-based authentication with role-based access control, developed a biometric authentication system for attendance tracking, and optimized SQL queries to enhance performance. The system also features centralized exception handling middleware and a responsive UI designed with ReactJS and TailwindCSS.",
+  },
+
+  {
+    role: "Full-Stack Developer (Entrepreneurial Project)",
+    company: "Revisify",
+    companyLogo: "",
+    date: "March 2024 - Present",
+    desc: "I conceptualized and developed a web application designed to assist users in revising multiple subjects through personalized daily quizzes. The application features automated email delivery, scoring, feedback, and study resources to optimize user performance. I designed a responsive UI/UX using React and Tailwind CSS, developed RESTful APIs with .NET Core, and implemented a robust data management system using SQL Server. The application also includes a dynamic scoring and feedback module, automated email notifications via SendGrid, and a content recommendation system linking YouTube tutorials based on user performance metrics.",
   },
 ];
 
@@ -183,6 +191,20 @@ export const projects: ProjectType[] = [
     name: "NanhiDuniya Email Api",
     desc: "The NanhiDuniya Email API enables efficient email communication, utilizing RabbitMQ for asynchronous processing, customizable templates, and tracking capabilities for user engagement.",
     github: "https://github.com/saurabhmishra1464/NanhiDuniya/tree/main/NanhiDuniya.Services.EmailApi",
+    link: "#",
+  },
+
+  {
+    name: "Revisify Frontend",
+    desc: "Designed a responsive UI/UX using React and TailwindCSS, enabling seamless navigation and daily quiz interactions. Integrated dynamic scoring and personalized feedback to enhance user engagement.",
+    github: "https://github.com/saurabhmishra1464/Revisify",
+    link: "#",
+  },
+
+  {
+    name: "Revisify Backened",
+    desc: "I developed a scalable backend using .NET Core, enabling personalized daily quizzes with automated email notifications via SendGrid. The system supports dynamic scoring, feedback generation, and a content recommendation module linking YouTube tutorials based on user performance. ",
+    github: "https://github.com/saurabhmishra1464/RevisifyBackened",
     link: "#",
   },
 ];

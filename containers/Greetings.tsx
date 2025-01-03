@@ -37,8 +37,8 @@ const Greetings = () => {
                       <Button
                         className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
                         color="default"
-                        href="/Resume-Saurabh-Mishra(Full Stack Developer).pdf" // Link to the file in public folder
-                        download="Resume-Saurabh-Mishra(Full Stack Developer).pdf" // Download with specified file name
+                        href="/Saurabh-Mishra-Resume.pdf" // Link to the file in public folder
+                        download="Saurabh-Mishra-Resume.pdf" // Download with specified file name
                       >
                         <span className="btn-inner--icon mr-1">
                           <i className="fa fa-file" />
